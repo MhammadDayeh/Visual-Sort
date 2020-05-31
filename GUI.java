@@ -116,7 +116,7 @@ class GUI {
 				tf5.setText(Integer.toString(result[1]));
 				tf6.setText(Integer.toString(result[2]));
 				tf7.setText(Integer.toString(result[3]));
-				isSuccessful = true;
+				successful = true;
 
 				removeBorders();
 				if (successful) greenBordersForResult();
